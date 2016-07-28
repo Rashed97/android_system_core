@@ -179,6 +179,7 @@ BatteryMonitor::PowerSupplyType BatteryMonitor::readPowerSupplyType(const String
             { "DockAC", ANDROID_POWER_SUPPLY_TYPE_DOCK_AC },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 798a84d... healthd: dock battery
 =======
 >>>>>>> 58df223... Revert "healthd: dock battery"
@@ -189,6 +190,12 @@ BatteryMonitor::PowerSupplyType BatteryMonitor::readPowerSupplyType(const String
             { "DASH", ANDROID_POWER_SUPPLY_TYPE_AC },
 >>>>>>> a0eb1da... Revert "Revert "healthd: dock battery""
 >>>>>>> 9ced080... Revert "Revert "healthd: dock battery""
+=======
+>>>>>>> 798a84d... healthd: dock battery
+=======
+            { "DASH", ANDROID_POWER_SUPPLY_TYPE_AC },
+>>>>>>> ec72b29... healthd: Add DASH charger type
+>>>>>>> b4ac586... healthd: Add DASH charger type
             { NULL, 0 },
     };
 
